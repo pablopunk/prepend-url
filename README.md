@@ -10,15 +10,6 @@
 > Prepend an url to another url
 
 
-## Table of Contents
-
-* [Install](#install)
-* [Usage](#usage)
-* [Author](#author)
-* [Contributors](#contributors)
-* [License](#license)
-
-
 ## Install
 
 ```sh
