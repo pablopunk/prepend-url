@@ -1,13 +1,16 @@
 # prepend-url
 
-[![build status](https://img.shields.io/travis/pablopunk/prepend-url.svg)](https://travis-ci.org/pablopunk/prepend-url)
-[![code coverage](https://img.shields.io/codecov/c/github/pablopunk/prepend-url.svg)](https://codecov.io/gh/pablopunk/prepend-url)
-[![code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-[![made with lass](https://img.shields.io/badge/made_with-lass-95CC28.svg)](https://lass.js.org)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![license](https://img.shields.io/github/license/pablopunk/prepend-url.svg)](<>)
+<p align="center">
+  <a href="https://travis-ci.org/pablopunk/prepend-url"><img src="https://img.shields.io/travis/pablopunk/prepend-url.svg" /> </a>
+  <a href="https://codecov.io/gh/pablopunk/prepend-url"><img src="https://img.shields.io/codecov/c/github/pablopunk/prepend-url.svg" /> </a>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" /> </a>
+  <a href="https://github.com/pablopunk/miny"><img src="https://img.shields.io/badge/made_with-miny-1eced8.svg" /> </a>
+  <a href="https://www.npmjs.com/package/prepend-url"><img src="http://img.shields.io/npm/dt/prepend-url.svg" /></a>
+</p>
 
-> Prepend an url to another url
+<p align="center">
+  <i>Prepend an url to another url</i>
+</p>
 
 
 ## Install
@@ -19,32 +22,27 @@ npm install prepend-url
 
 ## Usage
 
-```js
-const prependUrl = require('prepend-url')
-console.log(
-  prependUrl(
-    'http://pablopunk.com',
-    'https://microsec.pw'
-  )
-)
-//=> https://microsec.pw/pablopunk.com/
-```
 
-
-## Author
-
-| ![me](https://www.gravatar.com/avatar/fa50aeff0ddd6e63273a068b04353d9d?s=100) |
-| ----------------------------------------------------------------------------- |
-| © 2017 [Pablo Varela](http://pablo.life)                                      |
-
-
-## Contributors
-
-| Name             | Website              |
-| ---------------- | -------------------- |
-| **Pablo Varela** | <https://pablo.life> |
+```js¬
+const prependUrl = require('prepend-url')¬
+console.log(¬
+  prependUrl(¬
+    'http://pablopunk.com',¬
+    'https://microsec.pw'¬
+  )¬
+)¬
+//=> https://microsec.pw/pablopunk.com/¬
+```¬
 
 
 ## License
 
-[MIT](LICENSE) © [Pablo Varela](https://pablo.life)
+MIT
+
+
+## Author
+
+| ![me](https://gravatar.com/avatar/fa50aeff0ddd6e63273a068b04353d9d?size=100)           |
+| --------------------------------- |
+| [Pablo Varela](http://pablo.life)   |
+
