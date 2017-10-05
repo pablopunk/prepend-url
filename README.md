@@ -23,16 +23,16 @@ npm install prepend-url
 ## Usage
 
 
-```js¬
-const prependUrl = require('prepend-url')¬
-console.log(¬
+```js
+const prependUrl = require('prepend-url')
+console.log(
   prependUrl(¬
-    'http://pablopunk.com',¬
-    'https://microsec.pw'¬
-  )¬
-)¬
-//=> https://microsec.pw/pablopunk.com/¬
-```¬
+    'http://pablopunk.com',
+    'https://microsec.pw'
+  )
+)
+//=> https://microsec.pw/pablopunk.com/
+```
 
 
 ## License
