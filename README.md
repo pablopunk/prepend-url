@@ -12,37 +12,26 @@
   <i>Prepend an url to another url</i>
 </p>
 
-
 ## Install
 
 ```sh
 npm install prepend-url
 ```
 
-
 ## Usage
-
 
 ```js
 const prependUrl = require('prepend-url')
-console.log(
-  prependUrl(¬
-    'http://pablopunk.com',
-    'https://microsec.pw'
-  )
-)
+console.log(prependUrl('http://pablopunk.com', 'https://microsec.pw'))
 //=> https://microsec.pw/pablopunk.com/
 ```
-
 
 ## License
 
 MIT
 
-
 ## Author
 
-| ![me](https://gravatar.com/avatar/fa50aeff0ddd6e63273a068b04353d9d?size=100)           |
-| --------------------------------- |
-| [Pablo Varela](http://pablo.life)   |
-
+| ![me](https://gravatar.com/avatar/fa50aeff0ddd6e63273a068b04353d9d?size=100) |
+| ---------------------------------------------------------------------------- |
+| [Pablo Varela](http://pablo.life)                                            |
