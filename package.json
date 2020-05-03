@@ -12,10 +12,12 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "*",
+    "myass": "*",
     "codecov": "*",
     "nyc": "*",
-    "standard": "*"
+    "husky": "*",
+    "prettier": "*",
+    "pretty-quick": "*"
   },
   "homepage": "https://github.com/pablopunk/prepend-url",
   "keywords": [
@@ -43,8 +45,17 @@
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "lint": "standard",
-    "test": "npm run lint && npm run test-coverage",
-    "test-coverage": "nyc ava"
+    "test": "npm run test-coverage",
+    "test-coverage": "nyc myass"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
   }
 }
